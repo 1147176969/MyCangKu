@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>唯品会（原Vipshop.com）特卖会：全球精选_正品特卖_确保正品_确保低价_货到付款</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/shutter.js"></script>
+    <script src="js/velocity.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/login_yz.js"></script>
+</head>
+<body>
+    <!-- 快捷导航栏 start -->
+    <div class="shortcut" id="top">
+		<div class="w">
+			<div class="address fl">
+				<a href="#">北京市<span class="arrow_d"></a>
+			</div>
+			<div class="shortcurt_r fr">
+				<ul>
+                    <li class="ask_login">
+                        <a href="#">请登录<span class="arrow_d"></span></a>
+                    </li>
+                    <li class="line">/</li>
+                    <li class="register">
+                        <a href="#">注册</a>
+                    </li>
+                    <li class="line">/</li>
+					<li class="sign">
+						<a href="#">
+							<img src="images/gift.gif" alt="">签到有礼
+						</a>
+                    </li>
+                    <li class="line">/</li>
+                    <li class="my_bill">
+                        <a href="#">我的订单</a>
+                    </li>
+                    <li class="bill_line">/</li>
+                    <li class="hotbuy">
+                        <a href="#">我的特卖<span class="arrow_d"></a>
+                    </li>
+                        <li class="line">/</li>
+                    <li class="vipclub">
+                        <a href="#">会员俱乐部<span class="arrow_d"></a>
+                    </li>
+                        <li class="line">/</li>
+                    <li class="customer">
+                        <a href="#">客户服务<span class="arrow_d"></a>
+                    </li>
+                        <li class="line">/</li>
+					<li class="iphone"><a href="#">
+                        <img src="images/iphone.jpg" alt="">手机版</a>
+                    </li>
+                        <li class="line">/</li>
+					<li class="more">
+                        <a href="#">更多<span class="arrow_d"></a>
+                    </li>
+                    <!-- 展开区 -->
+                    <!-- 更多 -->
+                    <div class="more_develop" style="display: none; top: 30px;">
+                        <div class="more_develop_top">
+                            <h5>合作专区</h5>
+                            <p>
+                                <a href="javascript">联名卡申请</a>
+                                <a href="javascript">唯品卡</a>
+                                <a href="javascript">支付专区</a>
+                            </p>
+                        </div>
+                        <div class="more_develop_bottom">
+                            <h5>关于我们</h5>
+                            <p>
+                                <a href="javascript">Sell on vip</a>
+                                <a href="javascript">品牌招商</a>
+                                <a href="javascript">官方博客</a>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 手机端二维码 -->
+                    <div class="iphone_develop">
+                        <div class="iphone_develop_wrap">
+                            <img src="images/vip_phone_ewm.jpg" alt="" width="161" height="161">
+                            <h5>随时逛 及时抢</h5>
+                        </div>
+                    </div>
+                    <!-- 客户服务 -->
+                    <div class="customer_develop">
+                        <p>
+                            <a href="javascript:;">联系客服</a>
+                            <a href="javascript:;">帮助中心</a>
+                            <a href="javascript:;">服务中心</a>
+                            <a href="javascript:;">知识产权投诉</a>
+                        </p>
+                    </div>
+                    <!-- 会员俱乐部 -->
+                    <div class="vipclub_develop">
+                        <p>
+                            <a href="javascript:;">俱乐部首页</a>
+                            <a href="javascript:;">唯品币兑换</a>
+                            <a href="javascript:;">免费抽大奖</a>
+                        </p>
+                    </div>
+                    <!-- 我的特卖 -->
+                    <div class="hotbuy_develop">
+                        <p>
+                            <a href="javascript:;">品牌收藏(0)</a>
+                            <a href="javascript:;">商品收藏(0)</a>
+                            <a href="javascript:;">我的足迹(0)</a>
+                        </p>
+                    </div>
+                    <div class="sign_develop">
+                        <div class="triangle"></div>
+                        <div class="sign_develop_top">
+                            <div class="sign_area_img">
+                                <span class="img_1"></span>
+                                <em class="line_1"></em>
+                                <span class="img_2"></span>
+                                <em class="line_2"></em>
+                                <span class="img_3"></span>
+                                <em class="line_3"></em>
+                                <span class="img_4"></span>
+                                <em class="line_4"></em>
+                                <span class="img_5"></span>
+                                <em class="line_5"></em>
+                                <span class="img_6"></span>
+                                <em class="line_6"></em>
+                                <span class="img_7"></span>
+                            </div> 
+                            <div class="sign_develop_txt">
+                                <span class="day1">1天</span>
+                                <span class="day2">2天</span>
+                                <span class="day3">3天</span>
+                                <span class="day4">4天</span>
+                                <span class="day5">5天</span>
+                                <span class="day6">6天</span>
+                                <span class="day7">7天</span>
+                            </div>
+                        </div>
+                        <div class="sign_develop_bottom">
+                            <a href="javascript:;">每天签到送惊喜，连续签到更享心动奖励</a>
+                            <span class="sign_btn">签到</span>
+                        </div>
+                    </div>
+				</ul>
+			</div>
+		</div>
+	</div>	
+    <!-- 快捷导航栏 end -->
+    <!-- 头部 start -->
+    <div class="header w">
+        <div class="fl">
+            <!-- logo -->
+            <div class="logo">
+                <a href="javascript:;"><img src="images/logo.png" alt="" height="100px"></a>
+            </div>
+            <!-- 三大服务 -->
+            <div class="three_serve">
+                <!-- quality==正品 -->
+                <a href="javascript:;" class="quality"><img src="images/quality.png" alt="" height="20px"></a>
+                <!-- sevenday==七天 -->
+                <a href="javascript:;" class="sevenday"><img src="images/sevenday.png" alt="" height="20px"></a>
+                <!-- freightage==退货 -->
+                <a href="javascript:;" class="freightage "><img src="images/freightage.png" alt="" height="20px"></a>
+            </div>
+        </div>
+        <div class="fr">
+            <!-- 搜索框 -->
+            <div class="search">
+                <input type="text" class="search_input" placeholder="大家都在搜：连衣裙"><a href="javascript:;"><span class="search_btn"></span></a>
+            </div>
+            <!-- 购物车 -->
+            <div class="shopcar">
+                <em class="buybag"></em>
+                <a href="javascript:;"><span class="buybag_txt">购物袋</span></a>
+                <span class="buy_count_bg">
+                    <span class="buy_count">0</span>
+                </span>
+            </div>
+            <div class="shopcar_develop">
+                <p>好像还未登录！<a href="javascript:;">马上登录</a> 查看购物袋吧！</p>
+            </div>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <!-- 头部 end -->
+    <!-- 右边栏 start -->
+    <div class="sidebar">
+        <div class="sidebar_nav">
+            <ul class="sidebar_top">
+                <li class="person_account">
+                    <a href="javascript:;">
+                        <img src="images/账号.png" alt="" width="25px" height="25px">
+                        <a href="javascript:;">账号</a>
+                    </a>
+                    <div class="account_login">
+                        <div class="close_account_login"><i class="account_close"></i></div>
+                        <div class="user_headlogo"><img src="images/user_headlogo.jpg" alt=""></div>
+                        <p class="login_tip">您好！请<a href="javascript:;">登录</a><span class="login_line">|</span></span><a href="javascript:;">注册</a></p>
+                        <div class="my_second_serve">
+                            <div class="serve_one">
+                                <a href="javascript:;" class="changecolor">
+                                    <span class="my_buylist"></span>
+                                    <span class="my_buylist_txt">我的订单</span>
+                                </a>
+                            </div>
+                            <div class="serve_two">
+                                 <a href="javascript:;" class="changecolor">
+                                    <span class="my_message"></span>
+                                    <span class="my_message_txt">我的信息</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="vip_club">
+                            <a href="javascript:;"><span class="vip_club_txt">会员俱乐部</span></a>
+                        </div>
+                    </div>
+                </li>
+                <li class="shopping_bag">
+                    <a href="javascript:;">
+                        <img src="images/购物袋.png" alt="" width="16px" height="20px"><br>
+                        <a href="javscript:;">购<br>物<br>袋</a>
+                        <span class="shopping_count_bg">
+                            <span class="shopping_count">0</span>
+                        </span>
+                    </a>
+                    <div class="shopping_bag_login">
+                        <div class="close_shopping_bag_login">
+                            <i class="shopping_bag_close"></i>
+                        </div>
+                        <div class="user_headlogo"><img src="images/user_headlogo.jpg" alt=""></div>
+                        <p class="login_tip">您好！请<a href="javascript:;">登录</a><span class="login_line">|</span></span><a href="javascript:;">注册</a></p>
+                    </div>
+                </li>
+                <li class="asset">
+                   <a href="javascript:;"> <img src="images/优惠券.png" alt="" width="25px" height="25px"></a>
+                   <p class="my_asset">我的优惠券</p>
+                </li>
+                <li class="brand">
+                   <a href="javascript:;"> <img src="images/心.png" alt="" width="25px" height="25px"></a>
+                   <p class="my_brand">品牌收藏</p>
+                </li>
+                <li class="star">
+                   <a href="javascript:;"> <img src="images/星.png" alt="" width="25px" height="25px"></a>
+                   <p class="my_star">商品收藏</p>
+                </li>
+                 <li class="foot_print">
+                   <a href="javascript:;"> <img src="images/时间.png" alt="" width="25px" height="25px"></a>
+                   <p class="my_footprint">我的足迹</p>
+                </li>
+            </ul>
+            <ul class="sidebar_bottom"> 
+                <li class="survey">
+                    <a href="javascript:;"><img src="images/铅笔.png" alt="" width="25px" height="25px"></a>
+                    <p class="my_survey">会员反馈</p>
+                </li>
+                <li class="back_top">
+                    <a href="#top"><img src="images/回到顶部（20）.png" alt="" width="25px" height="25px"></a>
+                    <p class="my_top">返回顶部</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 右边栏结束 -->
+    <!-- 主导航 start -->
+    <div class="main_nav">
+        <div class="w">
+            <div class="fl">
+                <ul>
+                    <li><a href="javascript:;"><strong>首页</strong></a></li>
+                    <li><a href="javascript:;">女装</a></li>
+                    <li><a href="javascript:;">母婴</a></li>
+                    <li><a href="javascript:;">家电</a></li>
+                    <li><a href="javascript:;">国际</a></li>
+                    <li class="autumn">
+                        <span class="autumn_hot"></span>
+                        <a href="javascript:;">秋季美妆节</a>
+                    </li>
+                    <li><a href="javascript:;">鞋包</a></li>
+                    <li><a href="javascript:;">男装</a></li>
+                    <li><a href="javascript:;">运动</a></li>
+                    <li><a href="javascript:;">家居</a></li>
+                    <li class="nav_more">
+                        <a href="javascript:;">更多<span class="arrow_d"></span></a>
+                    </li>
+                    <li class="nav_classify">
+                        <a href="javascript:;"><img src="images/classify_icon.png" alt="">分类</a>
+                    </li>
+                    <li class="wire">|</li>
+                    <li class="nav_foreshow"> 
+                        <a href="javascript:;"><img src="images/foreshow.png" alt="">预告</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 主导航 end -->
+    <!-- 轮播图 start-->
+    <div class="shutter">
+        <div class="shutter-img">
+            <a href="#" data-shutter-title="Iron Man"><img src="images/lb_1.jpg" alt="#"></a>
+            <a href="#" data-shutter-title="Super Man"><img src="images/lb_2.jpg" alt="#"></a>
+            <a href="#" data-shutter-title="Super Man"><img src="images/lb_3.jpg" alt="#"></a>
+            <a href="#" data-shutter-title="Super Man"><img src="images/lb_4.jpg" alt="#"></a>
+            <a href="#" data-shutter-title="Super Man"><img src="images/lb_5.jpg" alt="#"></a>
+        </div>
+        <ul class="shutter-btn">
+            <li class="prev"></li>
+            <li class="next"></li>
+        </ul>
+   </div>
+    <!-- 轮播图 end-->
+     <!-- 热门分类  start -->
+     <div class="hot_classify">
+        <div class="w">
+            <!-- 热门分类头部 -->
+            <div class="hot_classify_head">
+                <div class="hot_classify_line"></div>
+                <div class="hot_classify_img"></div>
+                <div class="hot_classify_small_title">Hot category</div>
+            </div>
+            <!-- 热门分类主体 -->
+            <div class="hot_classify_body">
+                <!-- 主体左侧tab列表 -->
+                <ul class="hot_category_list">
+                    <li class="hot_classify_tab current">小家电<span class="hot_tab_arrow_r show">&gt;</span></li>
+                    <li class="hot_classify_tab ">3c数码<span class="hot_tab_arrow_r">&gt;</span></li>
+                    <li class="hot_classify_tab ">大家电<span class="hot_tab_arrow_r">&gt;</span></li>
+                </ul>
+                <div class="hot_classify_right">
+                    <div class="hot_classify_right_wrap">
+                        <ul class="classify_right_list">
+                            <!-- 商品列表 -->
+                            <li class="classify_right_list_item">
+                                <a href="javascript:;">
+                                    <img src="images/电饭煲.png" alt="">
+                                    <div class="classify_right_item_name">电饭煲</div>
+                                </a>
+                            </li>
+                            <li class="classify_right_list_item">
+                                <a href="javascript:;">
+                                    <img src="images/电压力煲.png" alt="">
+                                    <div class="classify_right_item_name">电压力煲</div>
+                                </a>
+                            </li>
+                            <li class="classify_right_list_item">
+                                <a href="javascript:;">
+                                    <img src="images/豆浆机.png" alt="">
+                                    <div class="classify_right_item_name">豆浆机</div>
+                                </a>
+                            </li>
+                            <li class="classify_right_list_item">
+                                <a href="javascript:;">
+                                    <img src="images/电热水壶.png" alt="">
+                                    <div class="classify_right_item_name">电热水壶</div>
+                                </a>
+                            </li>
+                            <li class="classify_right_list_item">
+                                <a href="javascript:;">
+                                    <img src="images/榨汁机.png" alt="">
+                                    <div class="classify_right_item_name">榨汁机</div>
+                                </a>
+                            </li>
+                            <li class="classify_right_list_item">
+                                <a href="javascript:;">
+                                    <img src="images/剃须刀.png" alt="">
+                                    <div class="classify_right_item_name">剃须刀</div>
+                                </a>
+                            </li>
+                            <li class="classify_right_list_item">
+                                <a href="javascript:;">
+                                    <img src="images/扫地机.png" alt="">
+                                    <div class="classify_right_item_name">扫地机</div>
+                                </a>
+                            </li>
+                            <li class="classify_right_list_item">
+                                <a href="javascript:;">
+                                    <img src="images/电暖器.png" alt="">
+                                    <div class="classify_right_item_name">电暖器</div>
+                                </a>
+                            </li>
+                             <li class="classify_right_list_item">
+                                <a href="javascript:;">
+                                    <img src="images/挂烫机.png" alt="">
+                                    <div class="classify_right_item_name">挂烫机</div>
+                                </a>
+                            </li>
+                            <li class="classify_right_list_item">
+                                <a href="javascript:;">
+                                    <img src="images/查看更多.png" alt="">
+                                    <div class="classify_right_item_name">查看更多</div>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="classify_right_list">
+                            <!-- 商品列表 -->
+                            <li class="classify_right_list_item">
+                                <a href="javascript:;">
+                                    <img src="images/手机.png" alt="">
+                                    <div class="classify_right_item_name">手机</div>
+                                </a>
+                            </li>
+                            <li class="classify_right_list_item">
+                                <a href="javascript:;">
+                                    <img src="images/电脑整机.png" alt="">
+                                    <div class="classify_right_item_name">电脑整机</div>
+                                </a>
+                            </li>
+                            <li class="classify_right_list_item">
+                                <a href="javascript:;">
+                                    <img src="images/摄影摄像.png" alt="">
+                                    <div class="classify_right_item_name">摄影摄像</div>
+                                </a>
+                            </li>
+                            <li class="classify_right_list_item">
+                                <a href="javascript:;">
+                                    <img src="images/平板电脑.png" alt="">
+                                    <div class="classify_right_item_name">平板电脑</div>
+                                </a>
+                            </li>
+                            <li class="classify_right_list_item">
+                                <a href="javascript:;">
+                                    <img src="images/手机配件.png" alt="">
+                                    <div class="classify_right_item_name">手机配件</div>
+                                </a>
+                            </li>
+                            <li class="classify_right_list_item">
+                                <a href="javascript:;">
+                                    <img src="images/时尚影音.png" alt="">
+                                    <div class="classify_right_item_name">时尚影音</div>
+                                </a>
+                            </li>
+                            <li class="classify_right_list_item">
+                                <a href="javascript:;">
+                                    <img src="images/电脑配件.png" alt="">
+                                    <div class="classify_right_item_name">电脑配件</div>
+                                </a>
+                            </li>
+                            <li class="classify_right_list_item">
+                                <a href="javascript:;">
+                                    <img src="images/智能设备.png" alt="">
+                                    <div class="classify_right_item_name">智能设备</div>
+                                </a>
+                            </li>
+                             <li class="classify_right_list_item">
+                                <a href="javascript:;">
+                                    <img src="images/吃鸡主机.png" alt="">
+                                    <div class="classify_right_item_name">吃鸡主机</div>
+                                </a>
+                            </li>
+                            <li class="classify_right_list_item">
+                                <a href="javascript:;">
+                                    <img src="images/查看更多.png" alt="">
+                                    <div class="classify_right_item_name">查看更多</div>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="classify_right_list">
+                            <!-- 商品列表 -->
+                            <li class="classify_right_list_item">
+                                <a href="javascript:;">
+                                    <img src="images/电视.png" alt="">
+                                    <div class="classify_right_item_name">电视</div>
+                                </a>
+                            </li>
+                            <li class="classify_right_list_item">
+                                <a href="javascript:;">
+                                    <img src="images/烟灶.png" alt="">
+                                    <div class="classify_right_item_name">烟灶</div>
+                                </a>
+                            </li>
+                            <li class="classify_right_list_item">
+                                <a href="javascript:;">
+                                    <img src="images/洗衣机.png" alt="">
+                                    <div class="classify_right_item_name">洗衣机</div>
+                                </a>
+                            </li>
+                            <li class="classify_right_list_item">
+                                <a href="javascript:;">
+                                    <img src="images/冰箱.png" alt="">
+                                    <div class="classify_right_item_name">冰箱</div>
+                                </a>
+                            </li>
+                            <li class="classify_right_list_item">
+                                <a href="javascript:;">
+                                    <img src="images/空调.png" alt="">
+                                    <div class="classify_right_item_name">空调</div>
+                                </a>
+                            </li>
+                            <li class="classify_right_list_item">
+                                <a href="javascript:;">
+                                    <img src="images/热水器.png" alt="">
+                                    <div class="classify_right_item_name">热水器</div>
+                                </a>
+                            </li>
+                            <li class="classify_right_list_item">
+                                <a href="javascript:;">
+                                    <img src="images/浴霸.png" alt="">
+                                    <div class="classify_right_item_name">浴霸</div>
+                                </a>
+                            </li>
+                            <li class="classify_right_list_item">
+                                <a href="javascript:;">
+                                    <img src="images/消毒柜.png" alt="">
+                                    <div class="classify_right_item_name">消毒柜</div>
+                                </a>
+                            </li>
+                             <li class="classify_right_list_item">
+                                <a href="javascript:;">
+                                    <img src="images/吸油烟机.png" alt="">
+                                    <div class="classify_right_item_name">吸油烟机</div>
+                                </a>
+                            </li>
+                            <li class="classify_right_list_item">
+                                <a href="javascript:;">
+                                    <img src="images/查看更多.png" alt="">
+                                    <div class="classify_right_item_name">查看更多</div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 热门分类  end -->
+    <!-- 新热卖 start -->
+    <div class="new_hot w">
+        <div class="new_hot_title clearfix">
+            <img src="images/标题_wtjp-新特卖.png" alt="">
+        </div>
+        <div class="new_hot_content clearfix">
+            <ul class="new_hot_ul">
+                <li class="new_hot_li">
+                    <a href="javascript:;"><img src="images/newhot_1.jpg" alt=""></a>
+                    <div class="new_hot_info">
+                        <span class="sale">5.3</span>
+                        <span>折起</span>
+                        <span>苹果APPLE手机套餐专场</span>
+                        <img src="images/clock.bmp" alt="" class="clock1">
+                        <span class="wait_time">剩2天</span>
+                    </div>
+                    <div class="collect_brand">
+                        <a href="">
+                            <img src="images/心.png" alt="" width="20px" height="20px">
+                            <span>收藏品牌</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="mr0 new_hot_li">
+                    <a href="javascript:;"><img src="images/newhot_2.jpg" alt=""></a>
+                    <div class="new_hot_info">
+                        <span class="sale">2</span>
+                        <span>折起</span>
+                        <span>华光HG小家电专场</span>
+                        <img src="images/clock.bmp" alt="" class="clock2">
+                        <span class="wait_time">剩14时</span>
+                    </div>
+                    <div class="collect_brand">
+                        <a href="">
+                            <img src="images/心.png" alt="" width="20px" height="20px">
+                            <span>收藏品牌</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="new_hot_li">
+                    <a href="javascript:;"><img src="images/newhot_3.jpg" alt=""></a>
+                    <div class="new_hot_info">
+                        <span class="sale">4.2</span>
+                        <span>折起</span>
+                        <span>vivo手机专场</span>
+                        <img src="images/clock.bmp" alt="" class="clock3">
+                        <span class="wait_time">剩10时</span>
+                    </div>
+                    <div class="collect_brand">
+                        <a href="">
+                            <img src="images/心.png" alt="" width="20px" height="20px">
+                            <span>收藏品牌</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="new_hot_li">
+                    <a href="javascript:;"><img src="images/newhot_4.jpg" alt=""></a>
+                    <div class="new_hot_info">
+                        <span class="sale">1.4</span>
+                        <span>折起</span>
+                        <span>OPPO手机专场</span>
+                        <img src="images/clock.bmp" alt="" class="clock4">
+                        <span class="wait_time">剩4天</span>
+                    </div>
+                    <div class="collect_brand">
+                        <a href="">
+                            <img src="images/心.png" alt="" width="20px" height="20px">
+                            <span>收藏品牌</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="new_hot_li">
+                    <a href="javascript:;"><img src="images/newhot_5.jpg" alt=""></a>
+                    <div class="new_hot_info">
+                        <span class="sale">1.4</span>
+                        <span>折起</span>
+                        <span>OPPO手机专场</span>
+                        <img src="images/clock.bmp" alt="" class="clock5">
+                        <span class="wait_time">剩4天</span>
+                    </div>
+                    <div class="collect_brand">
+                        <a href="">
+                            <img src="images/心.png" alt="" width="20px" height="20px">
+                            <span>收藏品牌</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="new_hot_li">
+                    <a href="javascript:;"><img src="images/newhot_6.jpg" alt=""></a>
+                    <div class="new_hot_info">
+                        <span class="sale">1.4</span>
+                        <span>折起</span>
+                        <span>OPPO手机专场</span>
+                        <img src="images/clock.bmp" alt="" class="clock6">
+                        <span class="wait_time">剩4天</span>
+                    </div>
+                    <div class="collect_brand">
+                        <a href="">
+                            <img src="images/心.png" alt="" width="20px" height="20px">
+                            <span>收藏品牌</span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 新热卖 end -->
+    <!-- 即将上线 start -->
+    <div class="wait_online w">
+         <div class="wait_online_title clearfix">
+            <img src="images/标题-即将上线.png" alt="">
+        </div>
+        <div class="wait_online_content clearfix">
+            <ul class="wait_online_ul">
+                <li class ="wait_online_li">
+                    <a href="javascript:;"><img src="images/waitonline_1.jpg" alt="" width="270px" height="129px"></a>
+                    <div class="wait_online_info">
+                        <span>北鼎BUYDEEM电器专场</span>
+                       <div class="fr">
+                            <span class="sale">6</span><span>折起</span>
+                        </div>
+                    </div>
+                    <div class="wait_online_login">
+                        <input type="text" placeholder="请输入手机号码" class="wait_online_login_ipt">
+                        <button class="wait_online_login_btn">开售提醒</button>
+                    </div>
+                </li>
+                <li class ="wait_online_li">
+                    <a href="javascript:;"><img src="images/waitonline_2.jpg" alt="" width="270px" height="129px"></a>
+                    <div class="wait_online_info">
+                        <span>惠人HUROM原汁机专场</span>
+                        <div class="fr">
+                            <span class="sale">3.3</span><span>折起</span>
+                        </div>
+                    </div>
+                    <div class="wait_online_login">
+                        <input type="text" placeholder="请输入手机号码" class="wait_online_login_ipt">
+                        <button class="wait_online_login_btn">开售提醒</button>
+                    </div>
+                </li>
+                <li class ="wait_online_li">
+                    <a href="javascript:;"><img src="images/waitonline_3.jpg" alt="" width="270px" height="129px"></a>
+                    <div class="wait_online_info">
+                        <span>SKG厨电专场</span>
+                        <div class="fr">
+                            <span class="sale">1.2</span><span>折起</span>
+                        </div>
+                    </div>
+                    <div class="wait_online_login">
+                        <input type="text" placeholder="请输入手机号码" class="wait_online_login_ipt">
+                        <button class="wait_online_login_btn">开售提醒</button>
+                    </div>
+                </li>
+                <li class ="wait_online_li">
+                    <a href="javascript:;"><img src="images/waitonline_4.jpg" alt="" width="270px" height="129px"></a>
+                    <div class="wait_online_info">
+                        <span>小熊电器厨电专场</span>
+                        <div class="fr">
+                            <span class="sale">1.2</span><span>折起</span>
+                        </div>
+                    </div>
+                    <div class="wait_online_login">
+                        <input type="text" placeholder="请输入手机号码" class="wait_online_login_ipt">
+                        <button class="wait_online_login_btn">开售提醒</button>
+                    </div>
+                </li>
+                <li class ="wait_online_li">
+                    <a href="javascript:;"><img src="images/waitonline_5.jpg" alt="" width="270px" height="129px"></a>
+                    <div class="wait_online_info">
+                        <span>小熊生活电器专场</span>
+                        <div class="fr">
+                            <span class="sale">1.2</span><span>折起</span>
+                        </div>
+                    </div>
+                    <div class="wait_online_login">
+                        <input type="text" placeholder="请输入手机号码" class="wait_online_login_ipt">
+                        <button class="wait_online_login_btn">开售提醒</button>
+                    </div>
+                </li>
+                <li class ="wait_online_li">
+                    <a href="javascript:;"><img src="images/waitonline_6.jpg" alt="" width="270px" height="129px"></a>
+                    <div class="wait_online_info">
+                        <span>HYUNDAI电器专场</span>
+                        <div class="fr">
+                            <span class="sale">1.4</span><span>折起</span>
+                        </div>
+                    </div>
+                    <div class="wait_online_login">
+                        <input type="text" placeholder="请输入手机号码" class="wait_online_login_ipt">
+                        <button class="wait_online_login_btn">开售提醒</button>
+                    </div>
+                </li>
+                <li class ="wait_online_li">
+                    <a href="javascript:;"><img src="images/waitonline_7.jpg" alt="" width="270px" height="129px"></a>
+                    <div class="wait_online_info">
+                        <span>天际TONZE电器专场</span>
+                        <div class="fr">
+                            <span class="sale">2.5</span><span>折起</span>
+                        </div>
+                    </div>
+                    <div class="wait_online_login">
+                        <input type="text" placeholder="请输入手机号码" class="wait_online_login_ipt">
+                        <button class="wait_online_login_btn">开售提醒</button>
+                    </div>
+                </li>
+                <li class ="wait_online_li">
+                    <a href="javascript:;"><img src="images/waitonline_8.jpg" alt="" width="270px" height="129px"></a>
+                    <div class="wait_online_info">
+                        <span>贝尔斯顿BESTDAY电器专场</span>
+                        <div class="fr">
+                            <span class="sale">2.3</span><span>折起</span>
+                        </div>
+                    </div>
+                    <div class="wait_online_login">
+                        <input type="text" placeholder="请输入手机号码" class="wait_online_login_ipt">
+                        <button class="wait_online_login_btn">开售提醒</button>
+                    </div>
+                </li>
+            </ul>
+            <!--  -->
+            <div class="account_login_model">
+                <div class="close_account_login">
+                    <img src="images/close.png" alt="" class="close_login" width="20px" height="20px">
+                </div>
+                <h4>账户登录</h4>
+                <div class="account">
+                    <input type="text" class="user_name" placeholder="手机号/用户名/邮箱">
+                    <img src="images/账户.png" alt="" class="account_pic">
+                </div>
+                <div class="account_fail_tip">
+                    <span class="account_tip">请输入登录名</span>
+                </div>
+               <div class="password">
+                    <input type="password" class="user_password" placeholder="密码">
+                    <img src="images/密码.png" alt="" class="password_pic">
+               </div>
+               <div class="password_fail_tip">
+                   <span class="password_tip">请输入密码</span>
+               </div>
+               <div class="forget_password">
+                    <input type="checkbox" checked class="remember_pwd">
+                    <span class="pwd_txt">记住用户名</span>
+                    <a href="javascript:;">忘记密码</a>
+               </div>
+               <input type="button" class="account_login_btn" id="login_btn" value="登录">
+               <div class="wechat_login">
+                    <div class="wechat_line"></div>
+                    <div class="wechat_img"></div>
+                </div>
+                <div class="third_party_login">
+                    <ul>
+                        <li><a href="javascript:;">新浪微博</a></li>
+                        <li class="other_login_line">|</li>
+                        <li><a href="javascript:;">QQ</a></li>
+                        <li class="other_login_line">|</li>
+                        <li><a href="javascript:;">支付宝</a></li>
+                        <li><a href="javascript:;" class="more_login">更多<img src="images/arrow_down.png" alt=""></a></li>
+                        <li><a href="javascript:;" class="free_reg">免费注册</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 即将上线 end -->
+    <!-- 底部footer  start -->
+    <div class="footer">
+        <div class="footer_inner clearfix">
+            <ul class="clearfix">
+                <li><i class="footer_icon_1"></i></li>
+                <li><i class="footer_icon_2"></i></li>
+                <li><i class="footer_icon_3"></i></li>
+                <li><i class="footer_icon_4"></i></li>
+                <li><i class="footer_icon_5"></i></li>
+                <li><i class="footer_icon_6"></i></li>
+                <li><i class="footer_icon_7"></i></li>
+                <li><i class="footer_icon_8"></i></li>
+                <li><i class="footer_icon_9"></i></li>
+                <li><i class="footer_icon_10"></i></li>  
+            </ul>
+            <div class="footer_list">
+                <dl class="footer_serve">
+                    <dt><a href="javascript:;">服务保障</a></dt>
+                    <dd><a href="javascript:;">正品保证</a></dd>
+                    <dd><a href="javascript:;">7天无理由放心退</a></dd>
+                    <dd><a href="javascript:;">退货返运费</a></dd>
+                    <dd><a href="javascript:;">7x15小时客户服务</a></dd>
+                    <dd><a href="javascript:;">7天无理由随心换</a></dd>
+                </dl>
+                <dl class="footer_serve">
+                    <dt><a href="javascript:;">购物指南</a></dt>
+                    <dd><a href="javascript:;">导购演示</a></dd>
+                    <dd><a href="javascript:;">订单操作</a></dd>
+                    <dd><a href="javascript:;">会员注册</a></dd>
+                    <dd><a href="javascript:;">账户管理</a></dd>
+                    <dd><a href="javascript:;">收货样品</a></dd>
+                    <dd><a href="javascript:;">会员等级</a></dd>
+                </dl>
+                <dl class="footer_serve">
+                    <dt><a href="javascript:;">支付方式</a></dt>
+                    <dd><a href="javascript:;">快捷支付</a></dd>
+                    <dd><a href="javascript:;">23家主流网银支付</a></dd>
+                    <dd><a href="javascript:;">货到付款</a></dd>
+                    <dd><a href="javascript:;">支付宝、银联等支付</a></dd>
+                    <dd><a href="javascript:;">信用卡支付</a></dd>
+                    <dd><a href="javascript:;">零钱支付</a></dd>
+                </dl>
+                <dl class="footer_serve">
+                    <dt><a href="javascript:;">配送方式</a></dt>
+                    <dd><a href="javascript:;">全场满288元免运费</a></dd>
+                    <dd><a href="javascript:;">配送范围及运费</a></dd>
+                    <dd><a href="javascript:;">验货与签收</a></dd>
+                </dl>
+                <dl class="footer_serve">
+                    <dt><a href="javascript:;">售后服务</a></dt>
+                    <dd><a href="javascript:;">退货政策</a></dd>
+                    <dd><a href="javascript:;">退货流程</a></dd>
+                    <dd><a href="javascript:;">退款方式和时效</a></dd>
+                    <dd><a href="javascript:;">换货服务</a></dd>
+                </dl>
+                <dl class="footer_serve">
+                    <dt>唯品会APP二维码</dt>
+                    <dd>
+                        <img src="images/vip_ewm.png" alt="">
+                    </dd>
+                    <dd>下载唯品会移动APP</dd>
+                </dl>
+            </div>
+        </div>
+        <!-- 底部导航 -->
+        <div class="footer_link">
+            <ul>
+                <li><a href="javascript:;">关于我们</a></li>
+                <li>|</li>
+                <li><a href="javascript:;">About us</a></li>
+                <li>|</li>
+                <li><a href="javascript:;">Inverstor Relations</a></li>
+                <li>|</li>
+                <li><a href="javascript:;">媒体报道</a></li>
+                <li>|</li>
+                <li><a href="javascript:;">品牌招商</a></li>
+                <li>|</li>
+                <li><a href="javascript:;">隐私条款</a></li>
+                <li>|</li>
+                <li><a href="javascript:;">唯品诚聘</a></li>
+                <li>|</li>
+                <li><a href="javascript:;">365爱心基金</a></li>
+                <li>|</li>
+                <li><a href="javascript:;">唯品卡</a></li>
+                <li>|</li>
+                <li><a href="javascript:;">联系我们</a></li>
+            </ul>
+    </div>
+    <div class="footer_cp">
+        <p>Copyright &copy;2008-2018 vip.com, All Rights Reserved 使用本网站即表示接受唯品会用户协议。版权所有 广州唯品会电子商务有限公司</p>
+        <p>
+            <img src="images/police_icon.png" alt="">
+            粤公网安备 44010302111111号  粤ICP备08114786号 增值业务经营许可证：粤B2-20170777 网络文化经营许可证：粤网文〔2015〕1528-229
+        </p>
+        <p>自营主体经营证照  风险监测信息  互联网药品交易服务资格证（粤C20140002）</p>  
+    </div>
+    <div class="footer_friendlink">
+        <ul>
+            <li><a href="javascript:;"><i class="friend_link_icon1"></i></a></li>
+            <li><a href="javascript:;"><i class="friend_link_icon2"></i></a></li>
+            <li><a href="javascript:;"><i class="friend_link_icon3"></i></a></li>
+            <li><a href="javascript:;"><i class="friend_link_icon4"></i></a></li>
+            <li><a href="javascript:;"><i class="friend_link_icon5"></i></a></li>
+            <li><a href="javascript:;"><i class="friend_link_icon6"></i></a></li>
+            <li><a href="javascript:;"><i class="friend_link_icon7"></i></a></li>
+        </ul>
+    </div>
+    <!-- 底部footer  end -->
+</body>
+</html>
