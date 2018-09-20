@@ -167,10 +167,15 @@ $(function () {
     var $user_account = $('.user_name');
     var $user_password = $('.user_password');
     $('.wait_online_login_btn').click(function(){
-        $('.account_login_model').show();
+        $('.account_login_model').show().stop().animate({left:360},300,function(){
+            $('.account_login_model').show().stop().animate({top:-180});
+        });
+        $('.full_screen').show();
     })
     $('.close_login').click(function(){
-        $('.account_login_model').hide();
+        $('.account_login_model').show().stop().animate({top:350},300,function(){
+            $('.account_login_model').show().stop().animate({left:-810});
+        });
         $('.account_fail_tip').css('opacity', 0);
         $('.password_fail_tip').css('opacity', 0);
         $user_account.val('');
@@ -179,7 +184,25 @@ $(function () {
         $user_account.css('border','1px solid #b2b2b2');
         console.log($user_account.val());
         // console.log($('#login_btn'));
+        $('.full_screen').hide();
     });
+    var flag = true;
+    $('.more_login').click(function () {
+        // $('.account_login_model').css('height', 540);
+        // $('.more_login_found').show();
+        // if($('.account_login_model').height() === 540) {
+        //     $('.more_login_found').hide();
+        // }
+        if(flag){
+            $('.account_login_model').css('height', 540);
+            $('.more_login_found').show();
+            flag = false;
+        } else {
+            $('.account_login_model').css('height', 520);
+            $('.more_login_found').hide();
+            flag = true;
+        }
+    })
     //轮播图参数
     $('.shutter').shutter({
         shutterW: 1900, // 容器宽度
@@ -379,5 +402,5 @@ $(function () {
     });
     $sign_develop.mouseleave(function () {  
         $sign_develop.hide();
-    })
+    });
 });

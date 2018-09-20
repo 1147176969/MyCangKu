@@ -1,0 +1,191 @@
+.reg_header {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+}
+.reg_header .fl img {
+    height: 100px;
+    width: 125px;
+}
+.reg_header .fr img {
+    width: 296px;
+    height: 100px;
+}
+.reg_content {
+    width: 100%;
+    background-color: #faa8ac;
+    height: 650px;
+}
+.reg_footer {
+    width: 100%;
+    height: 174px;
+}
+.reg_bg {
+    padding-top: 120px;
+    margin-left: 30%;;
+}
+.reg_content_box {
+    width: 360px;
+    height: 550px;
+    border: 1px solid red;
+    margin-left: 80px;
+    margin-top: 40px;
+    background-color: #fff;
+    /* padding: 15px; */
+}
+.reg_content_top {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 30px 10px 30px;
+}
+.reg_content_top h5 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #666;
+}
+.reg_content_top .fr {
+    font-size: 14px;
+}
+.reg_content_top .fr a {
+    color: #f10180;
+}
+.reg_bottom {
+    padding: 30px;
+    position: relative;
+}
+.tel, .password, .again_password {
+    /* position: relative; */
+    width: 248px;
+    height: 46px;
+    border: 1px solid #ccc;
+    margin-bottom: 26px;
+    border-radius: 5px;
+    padding: 0 25px;
+}
+.yzm {
+    /* position: relative; */
+    width: 104px;
+    height: 46px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 26px;
+    padding: 0 25px;
+}
+.get_yzm {
+    width: 132px;
+    height: 46px;
+    border: 0;
+    margin-left: 5px;
+    border-radius: 5px;
+    text-align: center;
+    color: #999;
+    background-color: #d0d0d0;
+}
+.tel_tip {
+    position: absolute;
+    top: 84px;
+    left: 30px;
+    color: red;
+    opacity: 0;
+}
+.yzm_tip {
+    position: absolute;
+    top: 156px;
+    left: 30px;
+    color: red;
+    opacity: 0;
+}
+.password_tip {
+    position: absolute;
+    top: 230px;
+    left: 30px;
+    color: red;
+    opacity: 0;
+}
+.again_password_tip {
+    position: absolute;
+    top: 304px;
+    left: 30px;
+    color: red;
+    opacity: 0;
+}
+.blue{
+    color: #3cbdff;
+}
+.promptly_reg {
+    display: block;
+    width: 300px;
+    height: 42px;
+    line-height: 42px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f10180;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 5px;
+}
+.reg_footer p {
+    margin-top: 20px;
+    text-align: center;
+    color: #666;
+}
+.tel_icon {
+    position: absolute;
+    top: 38px;
+    left: 28px;
+    width: 26px;
+    height: 26px;
+    background-image: url(../images/tel.png);
+}
+.fail_icon {
+    position: absolute;
+    top: 46px;
+    right: 40px;
+    width: 15px;
+    height: 15px;
+    background-image: url(../images/red_fail_icon.png);
+    display: none;
+}
+.message {
+    position: absolute;
+    top: 111px;
+    left: 28px;
+    width: 27px;
+    height: 27px;
+    background-image: url(../images/mes.png);
+}
+.lock {
+    position: absolute;
+    top: 182px;
+    left: 28px;
+    width: 27px;
+    height: 27px;
+    background-image: url(../images/psword.png);
+}
+.again_lock {
+    position: absolute;
+    top: 256px;
+    left: 28px;
+    width: 27px;
+    height: 27px;
+    background-image: url(../images/psword.png);
+}
+.psw_fail_icon {
+    position: absolute;
+    top: 192px;
+    right: 40px;
+    width: 15px;
+    height: 15px;
+    background-image: url(../images/red_fail_icon.png);
+    display: none;
+}
+.again_fail_icon {
+    position: absolute;
+    top: 268px;
+    right: 40px;
+    width: 15px;
+    height: 15px;
+    background-image: url(../images/red_fail_icon.png);
+    display: none;
+}

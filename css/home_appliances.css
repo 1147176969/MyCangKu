@@ -109,6 +109,9 @@
     margin: 35px 0 35px 130px ;
     padding: 0 5px;
 }
+.search_input::placeholder {
+    color: #fa2a83;
+}
 /* .search a {
     display: inline-block;
     width: 56px;
@@ -377,7 +380,7 @@
   width: 100%;
   height: 360px;
   position: relative;
-  margin: 0 auto;
+  margin: 0;
   z-index: 0;
 }
 .shutter-img {
@@ -414,12 +417,12 @@
   cursor: pointer;
 }
 .shutter-btn li.prev {
-  left: 100px;
+  left: 200px;
   background: url(../images/shutter_prevBtn.png) no-repeat 0 -49px;
   display: none;
 }
 .shutter-btn li.next {
-  right: 100px;
+  right: 200px;
   background: url(../images/shutter_nextBtn.png) no-repeat 0 -49px;
   display: none;
 }
@@ -576,13 +579,24 @@
 /* 登录框 */
 .account_login_model {
     position: absolute;
-    top: -180px;
-    left: 360px;
+    top: 350px;
+    left: -368px;
     width: 430px;
-    height: 541px;
+    height: 520px;
     background-color: #fff;
     border: 5px solid #d8d8d8;
     text-align: center;
+    display: none;
+    z-index: 11;
+}
+.full_screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3138px;
+    background: rgba(0,0,0,.5);
+    z-index: 10;
     display: none;
 }
 .close_login {
@@ -635,23 +649,22 @@
     width: 330px;
     height: 40px;
     line-height: 40px;
+    margin: 0 auto;
 }
 .remember_pwd {
-    position: absolute;
-    left: 50px;
-    bottom: 238px;
+    float: left;
     width: 19px;
     height: 16px;
 }
 .pwd_txt {
-    position: absolute;
-    left: 80px;
-    bottom: 224px;
+    float: left;
+    margin-top: -12px;
+    margin-left: 8px;
 }
 .forget_password a {
-    position: absolute;
-    right: 50px;
-    bottom: 224px;
+    float: right;
+    margin-left: 8px;
+    margin-top: -12px;
     color: #666;
 } 
 .forget_password a:hover {
@@ -722,6 +735,31 @@
 }
 .third_party_login .free_reg {
     margin-left: 80px;
+}
+/* .more_login {
+    margin-left: 5px;
+} */
+.more_login_found{
+    width: 362px;
+    height: 30px;
+    line-height: 30px;
+    /* border: 1px solid red; */
+    padding-top: 17px;
+    margin: 0 auto;
+    display: none;
+}
+.more_login_found ul li {
+    float: left;
+}
+.more_login_found ul li a {
+    color: #000;
+}
+.more_login_found ul li a:hover {
+    color: deeppink;
+}
+.more_login_line {
+    padding: 0 11px;
+    color: #e0e0e0;
 }
 /* 更多登录 */
 .third_party_login .more_login {
@@ -817,6 +855,9 @@
 .footer_serve {
     position: relative;
     float: left;
+}
+.footer_serve dd a:hover {
+    color: deeppink;
 }
 .footer_list .footer_serve {
     float: left;

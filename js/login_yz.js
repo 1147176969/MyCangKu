@@ -58,5 +58,52 @@ $(function(){
             $user_password.css('border','1px solid red');
         }
     });
-    // 6666666
+    // 注册验证
+    $tel = $('.tel');
+    $yzm = $('.yzm');
+    $reg_password = $('.password');
+    $again_password = $('.again_password');
+    $tel.blur(function(){
+        if($tel.val().length === 0){
+            $('.tel_tip').css('opacity', 1);
+            $tel.css('border','1px solid red');
+            $('.fail_icon').show();
+            $(this).val('');
+        }else if($tel.val().length >=1){
+            $('.tel_tip').css('opacity', 0);
+            $tel.css('border','1px solid #ccc');
+            $('.fail_icon').hide();
+    }});
+    $yzm.blur(function(){
+        if($yzm.val().length === 0){
+            $('.yzm_tip').css('opacity', 1);
+            $yzm.css('border','1px solid red');
+            $(this).val('');
+        }else if($yzm.val().length >=1){
+            $('.yzm_tip').css('opacity', 0);
+            $yzm.css('border','1px solid #ccc');
+    }});
+    $reg_password.blur(function(){
+        if($reg_password.val().length === 0){
+            $('.password_tip').css('opacity', 1);
+            $reg_password.css('border','1px solid red');
+            $('.psw_fail_icon').show();
+            $(this).val('');
+        }else if($tel.val().length >=1){
+            $('.password_tip').css('opacity', 0);
+            $reg_password.css('border','1px solid #ccc');
+            $('.psw_fail_icon').hide();
+    }});
+    $again_password.blur(function(){
+        if($again_password.val().length === 0){
+            $('.again_password_tip').css('opacity', 1);
+            $again_password.css('border','1px solid red');
+            $('.again_fail_icon').show();
+            $(this).val('');
+        }else if($again_password.val().length >=1){
+            $('.again_password_tip').css('opacity', 0);
+            $again_password.css('border','1px solid #ccc');
+            $('.again_fail_icon').hide();
+        }
+    });
 });
